@@ -1,0 +1,12 @@
+header
+{
+    width: auto;
+    height: 200px;
+    background-color: aquamarine;
+    background-image: url("images/pc.jpg");
+    background-attachment:local;
+}
+#tiesisis
+{
+text-align: center;
+}
