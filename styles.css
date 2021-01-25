@@ -1,12 +1,61 @@
 header
 {
     width: auto;
-    height: 200px;
-    background-color: aquamarine;
-    background-image: url("images/pc.jpg");
-    background-attachment:local;
+    height: 100px;
+    background-color: cornflowerblue;
 }
-#tiesisis
+nav{
+    width: auto;
+    height: auto;
+    background-color: crimson;
+}
+article
 {
-text-align: center;
+    width: auto;
+    height: auto;
+    background-color: grey;
 }
+footer
+{
+    width: auto;
+    height: auto;
+    background-color: yellow;
+    text-align: center;
+}
+#container
+{
+    display: flex;
+    background-color: teal;
+}
+#second
+{
+    background-color: violet;
+    width: 100%;
+}
+#first
+{
+    width: 20%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
